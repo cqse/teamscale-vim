@@ -1,3 +1,8 @@
+" adjust these variables
+let g:teamscale#user='your teamscale login'
+let g:teamscale#accesskey='your teamscale IDE accesskey'
+let g:teamscale#devpath='/path/to/teamscale-dev'
+
 function! s:precommit() abort
     let previous_compiler = ""
     if exists("b:current_compiler")
