@@ -48,6 +48,8 @@ CompilerSet errorformat+=%f:%l:\ %trror:\ %m
 CompilerSet errorformat+=%f:%l:\ %tarning:\ %m
 CompilerSet errorformat+=%f:%l:\ %m
 
+let b:teamscale = 1
+
 let &cpo = s:cpo_save
 unlet s:cpo_save
 
