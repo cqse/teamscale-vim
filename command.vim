@@ -1,3 +1,7 @@
+" copy compiler/teamscale.vim to your $VIMRUNTIME/compiler folder, e.g.
+" ~/.config/nvim/compiler
+" Then copy the rest of this file into your vimrc
+
 " adjust these variables
 let g:teamscale#user='your teamscale login'
 let g:teamscale#accesskey='your teamscale IDE accesskey'
@@ -32,4 +36,7 @@ endfunction
 " Writes the current buffer, then runs pre-commit and shows the results in the
 " quickfix window
 command! Precommit call s:precommit()
+
+" adjust the mapping to your likes
+map <f5> :Precommit<cr>
 
