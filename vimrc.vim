@@ -1,6 +1,6 @@
 " copy compiler/teamscale.vim to your $VIMRUNTIME/compiler folder, e.g.
 " ~/.config/nvim/compiler
-" Then copy the rest of this file into your vimrc
+" Then copy the rest of this file into your vimrc and adjust as needed
 
 " adjust these variables
 let g:teamscale#user='your teamscale login'
