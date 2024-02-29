@@ -1,10 +1,9 @@
-" copy compiler/teamscale.vim to your $VIMRUNTIME/compiler folder, e.g.
-" ~/.config/nvim/compiler
-" Then copy the rest of this file into your vimrc and adjust as needed
+" See README.md for installation instructions
 
 " adjust these variables
 let g:teamscale#user='your teamscale login'
 let g:teamscale#accesskey='your teamscale IDE accesskey'
+" set this, unless the teamscale-dev command-line tool is already on your PATH
 let g:teamscale#devpath='/path/to/teamscale-dev'
 
 function! s:precommit() abort

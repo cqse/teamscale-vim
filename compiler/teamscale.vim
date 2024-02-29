@@ -1,13 +1,8 @@
 " vim compiler file for Teamscale Precommit Analysis
 " Compiler:		Teamscale Precommit Analysis     
 " Maintainer:   CQSE GmbH
-" Last Change:  08/31/2018
 "
-" Simple compiler plugin, see :help write-compiler-plugin. 
-" Put this file into $VIMRUNTIME/compiler
-" Activate it with :compiler teamscale
-" Run pre-commit with :make %
-" Navigate findings in the quickfix window with :cw
+" See README.md for installation instructions
 
 if exists("current_compiler")
   finish
