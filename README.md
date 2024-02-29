@@ -18,4 +18,4 @@ Findings are shown in the quickfix window (`:cw`).
 ## Testing
 
 If you make changes to this plugin, you can test them with `./test.sh` which launches a vim instance without your user's `.vimrc` but with the plugin and `vimrc.vim` pre-loaded.
-The script currently only wroks with NeoVim.
+The script currently only works with NeoVim.
